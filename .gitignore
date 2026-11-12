@@ -1,12 +1,30 @@
-*.iml
+# Gradle
 .gradle/
-local.properties
-.idea/
-.DS_Store
 build/
+
+# Machine-specific SDK path (sdk.dir=...); every developer generates their own
+local.properties
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
 captures/
+
+# Kotlin tooling: daemon logs and compile sessions (never project code)
+.kotlin/
+
+# Android builds
 .externalNativeBuild/
 .cxx/
-*.apk
-*.aab
-*.bat
+
+# Secrets — never commit signing material
+*.jks
+*.keystore
+keystore.properties
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Build outputs are produced by :app:assembleDebug; the repo does not ship them
+app/build/

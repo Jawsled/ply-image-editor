@@ -4,7 +4,7 @@ An image editor for Android that is capable of handling multiple layers. Built w
 
 ## Requirements
 
-- JDK 17 or newer (JDK 21 works)
+- JDK 17 or newer
 - Android SDK Platform 35 + Build-Tools 34+
 - Android Studio Ladybug or newer (optional)
 
